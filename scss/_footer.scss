@@ -17,6 +17,13 @@
             padding-right: 1rem;
             margin-right: 0px;
             font-family: $font1;
+            
+            @media #{$mobile_device} {
+                margin-right: 45px
+            }
+            @media #{$tablet_device} {
+                margin-right: 45px
+            }
             &:after {
                 content: " ";
                 width: 0;

@@ -13,6 +13,18 @@
     &.faculties {
         background: #F7FAFC;
     }
+    .image-container {
+        img{
+            @media #{$mobile_device}{
+                max-width:100%;
+                margin-left: 0 !important;
+            }
+            @media #{$tablet_device}{
+                max-width:100%;
+                margin-left: 0 !important;
+            }
+        }
+    }
     .impact-count {
         font-size: 36px;
         line-height: 44px;
