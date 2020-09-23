@@ -1,0 +1,49 @@
+.service_area{
+    border-top: 8px solid #805AD5;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 130px;
+    @media #{$mobile_device} {
+        padding-bottom: 40px;
+        padding-top: 70px;
+    }
+    @media #{$tablet_device} {
+        padding-bottom: 50px;
+    }
+    .single_service{
+        padding: 48px 35px 30px 35px;
+        border: 2px solid #E8E8E8;
+        @include transition(.3s);
+        height: 100%;
+        @include border-radius(5px);
+        @media #{$tablet_device}{
+            padding: 30px 20px;
+        }
+        .icon{
+            img {
+                width: 56px;
+            }
+        }
+        h3{
+            font-size: 24px;
+            font-weight: bold;
+            color: #1A202C;
+            margin-top: 29px;
+            margin-bottom: 13px;
+            @media #{$tablet_device} {
+                font-size: 22px;
+            }
+        }
+        p{
+            color: #4A5568;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 0;
+        }
+        &:hover{
+            border: 2px solid #805AD5;
+        }
+    }
+}
