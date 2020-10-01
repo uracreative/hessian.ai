@@ -230,7 +230,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 		// opacity: 0;
 		position: absolute;
 		text-align: center;
-		top: 50%;
+		top: 25%;
 		-webkit-transform: translateY(-50%);
 			-ms-transform: translateY(-50%);
 				transform: translateY(-50%);
@@ -250,6 +250,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 	}
 	.owl-nav{
 		div{
+			color: #553C9A;
+			border-color: #553C9A;
 			&.owl-next{
 				// left: 86px;
 				// right: auto;
