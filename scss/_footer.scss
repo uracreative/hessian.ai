@@ -8,7 +8,7 @@
         .say_hi{
             font-size: 16px;
             line-height: 24px;
-            background: #805AD5;
+            background: #36196D;
             color: #fff;
             font-weight: bold;
             position: relative;
@@ -28,7 +28,7 @@
                 content: " ";
                 width: 0;
                 height: 0;
-                border-top: calc(24px + 1rem) solid #805AD5;
+                border-top: calc(24px + 1rem) solid #36196D;
                 border-right: calc(15px + 1rem) solid transparent;
                 left:100%;
                 top: 0;
@@ -38,7 +38,7 @@
     }
     .footer_top{
         padding: 48px 0;
-        background: #2D3748;
+        background: #36196D;
         h3 {
             color: #FFF;
             font-size: 36px;
