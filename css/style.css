@@ -309,8 +309,8 @@ h3 {
   left: 150px;
 }
 .owl-carousel .owl-nav div {
-  color: #553c9a;
-  border-color: #553c9a;
+  color: #36196d;
+  border-color: #36196d;
 }
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
@@ -330,7 +330,7 @@ h3 {
 }
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #615cfd;
+  background: #36196d;
   border: 1px solid transparent;
 }
 
@@ -2231,6 +2231,7 @@ hr {
 @media (min-width: 768px) and (max-width: 991px) {
   .service_area .single_service h3 {
     font-size: 22px;
+    word-break: break-all;
   }
 }
 .service_area .single_service p {
